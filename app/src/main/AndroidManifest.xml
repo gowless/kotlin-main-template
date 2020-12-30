@@ -26,7 +26,6 @@
         <activity android:name=".uiactivities.Info" />
         <activity android:name=".uiactivities.Splash" />
         <activity android:name=".uiactivities.Cloak" />
-        <activity android:name=".uiactivities.MainActivity" />
     </application>
 
 </manifest>

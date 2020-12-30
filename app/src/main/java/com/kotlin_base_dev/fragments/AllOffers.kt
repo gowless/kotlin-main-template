@@ -7,9 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.kotlin_base_dev.R
 
-
-
-
 class AllOffers : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
