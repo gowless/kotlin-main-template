@@ -90,6 +90,7 @@ class MainActivity : AppCompatActivity() {
     private fun setDeclaring() {
         //textview and image of non-inherent case
         textView = findViewById(R.id.text_non_Ithernet)
+
         imageView = findViewById(R.id.non_Ithernet)
         //recyclerview
         recyclerView = findViewById(R.id.recyclerView)
