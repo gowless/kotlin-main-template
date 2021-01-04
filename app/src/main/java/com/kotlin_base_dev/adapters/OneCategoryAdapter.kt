@@ -6,8 +6,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.kotlin_base_dev.R
+import com.kotlin_base_dev.network.models.getmodels.Liste
 
-class OneCategoryAdapter(private val data: List<OffersData>?) :
+class OneCategoryAdapter(private val data: List<Liste>?) :
     RecyclerView.Adapter<OneCategoryAdapter.MyViewHolder>() {
 
 

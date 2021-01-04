@@ -6,8 +6,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.kotlin_base_dev.R
+import com.kotlin_base_dev.network.models.getmodels.Liste
 
-class ZeroListAdapter(private val data: List<OffersData>) :
+class ZeroListAdapter(private val data: List<Liste>) :
     RecyclerView.Adapter<ZeroListAdapter.MyViewHolder>() {
 
 
