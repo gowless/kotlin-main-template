@@ -6,23 +6,17 @@ import android.os.AsyncTask
 import android.os.Bundle
 import android.telephony.TelephonyManager
 import android.util.Log
-import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.myapplication5.HerokuEndpoints
 import com.example.myapplication5.ServiceBuilder
 import com.google.android.gms.ads.identifier.AdvertisingIdClient
-import com.kotlin_base_dev.BuildConfig
-import com.kotlin_base_dev.MainActivity
 import com.kotlin_base_dev.R
 import com.kotlin_base_dev.network.models.getmodels.Data
 import com.kotlin_base_dev.network.models.getmodels.Listoffers
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 
 class Splash : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package com.kotlin_base_dev
+package com.kotlin_base_dev.uiactivities
 
 import android.content.Context
 import android.net.ConnectivityManager
@@ -16,6 +16,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
+import com.kotlin_base_dev.R
 import com.kotlin_base_dev.ui.main.SectionsPagerAdapter
 
 class MainActivity : AppCompatActivity() {

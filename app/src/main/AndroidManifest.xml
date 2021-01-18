@@ -26,7 +26,7 @@
         <activity android:name=".uiactivities.BeforeMain" />
         <activity android:name=".uiactivities.OneCategory" />
         <activity
-            android:name=".MainActivity"
+            android:name=".uiactivities.MainActivity"
             android:theme="@style/Theme.Kotlinbasedev.NoActionBar">
 
         </activity>
