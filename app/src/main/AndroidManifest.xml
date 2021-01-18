@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kotlin_base_dev">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Optional : -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,17 +16,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlinbasedev">
-        <activity android:name=".uiactivities.BeforeMain"></activity>
-        <activity android:name=".uiactivities.OneCategory" />
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.Kotlinbasedev.NoActionBar">
+        <activity android:name=".uiactivities.Transparent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".uiactivities.BeforeMain" />
+        <activity android:name=".uiactivities.OneCategory" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Kotlinbasedev.NoActionBar">
+
         </activity>
         <activity android:name=".uiactivities.InfoOneCategory" />
         <activity android:name=".uiactivities.InfoCloak" />

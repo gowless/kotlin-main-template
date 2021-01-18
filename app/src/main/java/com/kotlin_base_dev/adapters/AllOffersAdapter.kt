@@ -6,9 +6,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.kotlin_base_dev.R
-import com.kotlin_base_dev.network.models.getmodels.Liste
+import com.kotlin_base_dev.network.models.getmodels.Listoffers
 
-class AllOffersAdapter(private val data: List<Liste>) :
+class AllOffersAdapter(private val data: List<Listoffers>) :
     RecyclerView.Adapter<AllOffersAdapter.MyViewHolder>() {
 
 

@@ -49,7 +49,7 @@ class BeforeMain : AppCompatActivity() {
             if (Splash.isEmpty) {
                 nonCategoriesStart()
             } else {
-                progressBar!!.isIndeterminate = false
+              //  progressBar!!.isIndeterminate = false
                 mainStart()
             }
         } else {

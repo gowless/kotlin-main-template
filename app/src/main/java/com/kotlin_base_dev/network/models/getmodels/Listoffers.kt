@@ -1,8 +1,6 @@
 package com.kotlin_base_dev.network.models.getmodels
 
-import com.kotlin_base_dev.network.models.getmodels.*
-
-data class Liste(
+data class Listoffers(
     val _id: String,
     val amount: Amount,
     val categories: List<String>,
@@ -16,7 +14,7 @@ data class Liste(
     val percent: Percent,
     val push: Push,
     val term: Term,
-    val time_solution: Any,
+    val time_solution: TimeSolution,
     val top: Boolean,
     val url: String
 )

@@ -5,20 +5,31 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.kotlin_base_dev.R
+import com.kotlin_base_dev.adapters.AllOffersAdapter
+import com.kotlin_base_dev.adapters.ZeroListAdapter
+import com.kotlin_base_dev.uiactivities.Splash
 
 
 class ZeroList : Fragment() {
 
-    var recyclerView: RecyclerView? = null
+    lateinit var recyclerView: RecyclerView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_zero_list, container, false)
+        val view: View = inflater.inflate(R.layout.fragment_zero_list, container, false)
+        recyclerView = view.findViewById(R.id.recyclerView)
+        val adapterZeroList = ZeroListAdapter(Splash.listDataAll!!)
+        recyclerView.layoutManager = LinearLayoutManager(context, RecyclerView.VERTICAL, false)
+        recyclerView.adapter = adapterZeroList
+
+
+        return view;
     }
 
 
